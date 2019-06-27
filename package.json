@@ -2,6 +2,12 @@
   "name": "STARTER_RAILS",
   "private": true,
   "dependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "rubocop",
+      "pre-push": "rspec"
+    }
+  },
   "devDependencies": {
     "husky": "^2.7.0"
   }
