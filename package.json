@@ -1,5 +1,8 @@
 {
   "name": "STARTER_RAILS",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "^2.7.0"
+  }
 }
